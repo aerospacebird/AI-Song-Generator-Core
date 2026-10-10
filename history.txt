@@ -1,0 +1,1 @@
+AI Song Maker Project Architecture Generation History and Code Repository Layout Setup.

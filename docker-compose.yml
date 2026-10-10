@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  music_worker_0:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: yue2_worker_0
+    environment:
+      - CUDA_VISIBLE_DEVICES=0
+    ports:
+      - "7860:7860"
+    restart: unless-stopped
